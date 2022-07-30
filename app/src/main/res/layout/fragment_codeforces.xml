@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+
+    android:orientation="vertical"
+    tools:context=".Fragments.CodeforcesFragment">
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aleo"
+                android:text="Username: "
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/contestRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contest Rating: Unrated"
+                android:fontFamily="@font/aleo"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/contestMaxRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Max Rating: Unrated"
+                android:fontFamily="@font/aleo"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/contestRank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rank : Unrated"
+                android:fontFamily="@font/aleo"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:id="@+id/contestMaxRank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Max Rank : Unrated"
+                android:fontFamily="@font/aleo"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                />
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="10dp"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/codeforcesRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            tools:listitem="@layout/item_view_holder"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

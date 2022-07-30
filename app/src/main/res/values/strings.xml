@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Stalk</string>
+    <string name="email_address">Email Address</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="register_with_google">Register With Google</string>
+    <string name="or">OR</string>
+    <string name="already_registered_log_in"><font color='#808080'>Already Registered?</font> <font color='#01C6DB'>Login</font></string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_with_google">Sign In With Google</string>
+    <string name="dont_t_have_an_account_registered"><font color='#808080'>Dont\'t have an Account? </font><font color='#01C6DB'>Registered</font></string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="codechef">Codechef</string>
+    <string name="codeforces">Codeforce</string>
+    <string name="leetcode">Leetcode</string>
+    <string name="atcoder">Atcoder</string>
+    <string name="home">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="leetcode_id">Leetcode Id:</string>
+    <string name="atcoder_id">Atcoder Id:</string>
+    <string name="codeforces_id">Codeforces Id:</string>
+    <string name="codechef_id">Codechef id:</string>
+    <string name="e_mail">E-mail: </string>
+    <string name="username">Username: </string>
+    <string name="my_profile">My Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="logout_user">Logout User</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="_20_100">20/100</string>
+    <string name="_50">50%</string>
+    <string name="medium">Medium</string>
+    <string name="easy">Easy</string>
+    <string name="hard">Hard</string>
+    <string name="username1">Username:</string>
+    <string name="total_solved_problem">Total Solved Problem:</string>
+    <string name="reputation">Reputation:</string>
+    <string name="points">Points:</string>
+    <string name="more_features_update_soon">More Features Updated Soon...</string>
+
+</resources>

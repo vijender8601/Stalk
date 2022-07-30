@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <tab drawable="@drawable/atcoder"
+        text="@string/atcoder"
+        />
+
+    <tab drawable="@drawable/codechef"
+        text="@string/codechef"
+        />
+
+    <tab drawable="@drawable/home"
+        text="@string/home"
+        />
+
+    <tab drawable="@drawable/codeforces"
+        text="@string/codeforces"
+        />
+
+    <tab drawable="@drawable/leetcode"
+        text="@string/leetcode"
+        />
+
+
+
+</tabs>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "941810156237",
+    "project_id": "stalk-e1f69",
+    "storage_bucket": "stalk-e1f69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941810156237:android:dfb45c3a2614b8a2a6df84",
+        "android_client_info": {
+          "package_name": "com.example.stalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941810156237-s4b24c1lthvdhhu5o0e347a130ehioi9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2bMrZthEaQQsiT-BW6iMWXP-XcNesZmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941810156237-s4b24c1lthvdhhu5o0e347a130ehioi9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

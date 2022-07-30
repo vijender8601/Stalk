@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/contestName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Contest Name: "
+            android:textSize="20sp"
+            android:fontFamily="@font/aleo"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            >
+            <TextView
+                android:id="@+id/contestnewRank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contest Rank: "
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:fontFamily="@font/aleo"
+                />
+            <TextView
+                android:id="@+id/contestnewRating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contest Rating: "
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:layout_marginLeft="-3.5dp"
+                android:fontFamily="@font/aleo"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
